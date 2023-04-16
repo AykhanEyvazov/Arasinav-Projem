@@ -1,0 +1,73 @@
+---
+title: "Harcama Türlerine Göre Turizm Gideri"
+author: 
+  - Aykhan Eyvazov
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080055 [Github Repo](https://github.com/AykhanEyvazov/Arasinav-Projem)
+
+
+
+# Giriş
+Kaynak: **_Türkiye İstatistik Kurumu_**  
+Link:  ([TÜİK!](https://data.tuik.gov.tr/Kategori/GetKategori?p=egitim-kultur-spor-ve-turizm-105&dil=1))
+Proje Adı: Türkiye'de İkamet Eden Vatandaşların Yurt Dışı Seyahatlerinde Yaptıkları Harcamaların Analizi
+
+Proje Açıklaması: Bu projenin amacı, Türkiye'de ikamet eden vatandaşların yurt dışına seyahatlerinde yaptıkları harcamaların analiz edilmesidir. Bu analiz, Dünya Turizm Örgütü ve Eurostat kavram ve yöntemleri kullanılarak gerçekleştirilmiş olup ve turizm harcamalarının yanı sıra kişisel harcamalar ve paket tur harcamaları gibi harcama türleri de dikkate alınacaktır.
+
+Veri Toplama Yöntemi: Veriler, yüz yüze görüşme yöntemi kullanılarak gerçekleştirilecek anketler yoluyla toplanacaktır. Anketlerde 15 yaşından küçükler dahil edilmeyecektir. Anketlerde turizm harcamaları, kişisel harcamalar ve paket tur harcamaları gibi harcama türleri tanımlanacak ve bu kapsamda yeme-içme, konaklama, sağlık, ulaşım, spor, eğitim, kültür, yabancı firmalarla yapılan uluslararası yolculuk ücretleri, cep telefonu dolaşım harcamaları, giyecek, hediyelik eşya, halı-kilim gibi harcama kalemleri sorgulanacaktır.
+
+Veri Analizi: Veriler, Dünya Turizm Örgütü ve Eurostat kavram ve yöntemleri kullanılarak analiz edilecektir. Analiz sonuçları, turizm harcamalarının yeme-içme, konaklama, sağlık, ulaşım, spor, eğitim, kültür, yabancı firmalarla yapılan uluslararası yolculuk ücretleri, cep telefonu dolaşım harcamaları, giyecek, hediyelik eşya, halı-kilim gibi harcama kalemlerine ayrılarak sunulmuştur. Paket tur harcamaları tur operatörü tarafından sağlanan hizmetler için ödenen ücreti ifade ederken kişisel harcama, ziyaret edilen yerde yapılan tüm harcamaları kapsar.
+
+Raporlama ve Sunum: Veri analizi sonuçları, bir rapor halinde sunulacaktır. Rapor, Türkiye'de ikamet eden vatandaşların yurt dışına seyahatlerinde yaptıkları harcamaların genel bir resmini çizecektir. Rapor, turizm harcamalarının yanı sıra kişisel harcamalar ve paket tur harcamaları gibi harcama
+
+
+
+Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir (doğal olarak ilk bölüm başlığı hariç). Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
+
+## Çalışmanın Amacı
+**Projenin amacı Türkiye de ikamet eden vatandaşların turistik olarak ziyaret ettikleri ülkelerde yaptıkları harcamaları başka bir ifadeyle, yurtdışına olan para akışını belli ölçüde azaltmaya yönelik olan ana önlemlerin belirlenmesidir.**
+
+## Literatür 
+```{r}
+library(readxl)
+X_4i_7Gu9WSE4rDxmDugav8FIPQ37gW41KSJbuBiI61AWzYgroIlliAg7ryKwGCt7_2_ <- read_excel("C:/Users/HP/Downloads/_4i_7Gu9WSE4rDxmDugav8FIPQ37gW41KSJbuBiI61AWzYgroIlliAg7ryKwGCt7 (2).xls")
+View(X_4i_7Gu9WSE4rDxmDugav8FIPQ37gW41KSJbuBiI61AWzYgroIlliAg7ryKwGCt7_2_)
+```
+
+
+
+**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
